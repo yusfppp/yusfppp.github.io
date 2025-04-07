@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Sup.</title>
+    <meta name="title" content="Sup." />
+    <meta name="description" content="Yusuf's ersonal branding website" />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon_ysf.svg"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/pattern-2.svg" />
+    <link rel="preload" as="image" href="./assets/images/pattern-3.svg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="90"
+            height="37"
+            alt="Yusuf logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="90"
+                height="37"
+                alt="Yusuf logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link hover-1" data-nav-toggler
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="#topics" class="navbar-link hover-1" data-nav-toggler
+                >Topics</a
+              >
+            </li>
+
+            <li>
+              <a href="#projects" class="navbar-link hover-1" data-nav-toggler
+                >My Projects</a
+              >
+            </li>
+
+            <li>
+              <a href="#recent" class="navbar-link hover-1" data-nav-toggler
+                >Education</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link hover-1" data-nav-toggler
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="navbar-bottom"></div>
+
+          <p class="copyright-text">
+            Copyright 2025 © Sup. - Personal Branding Website. All rights
+            reserved.
+          </p>
+        </nav>
+
+        <a href="#" class="btn btn-primary">Subscribe</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">السلام عليكم</p>
+
+              <h1 class="headline headline-1 section-title">
+                I’m <span class="span">Muhammad Maulana Yusuf</span>
+              </h1>
+
+              <p class="hero-text">
+                I'm an Software Engineering student at Politeknik Negeri Batam
+                who’s passionate about technology, web development, and building
+                impactful digital experiences.
+              </p>
+            </div>
+
+            <div class="hero-banner">
+              <img
+                src="./assets/images/yusuf_nobg.png"
+                width="327"
+                height="490"
+                alt="Wren Clark"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/pattern-2.svg"
+                width="27"
+                height="26"
+                alt="shape"
+                class="shape shape-1"
+              />
+
+              <img
+                src="./assets/images/pattern-3.svg"
+                width="27"
+                height="26"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </div>
+
+            <img
+              src="./assets/images/shadow-1.svg"
+              width="500"
+              height="800"
+              alt=""
+              class="hero-bg hero-bg-1"
+            />
+
+            <img
+              src="./assets/images/shadow-2.svg"
+              width="500"
+              height="500"
+              alt=""
+              class="hero-bg hero-bg-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #TOPICS
+      -->
+
+        <section class="topics" id="topics" aria-labelledby="topic-label">
+          <div class="container" style="position: relative; top: -30px">
+            <div class="card topic-card">
+              <div class="card-content">
+                <h2
+                  class="headline headline-2 section-title card-title"
+                  id="topic-label"
+                >
+                  Hot topics
+                </h2>
+
+                <p class="card-text">
+                  Don't miss out on the latest news about Travel tips, Hotels
+                  review, Food guide...
+                </p>
+
+                <div class="btn-group">
+                  <button
+                    class="btn-icon"
+                    aria-label="previous"
+                    data-slider-prev
+                  >
+                    <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                  </button>
+
+                  <button class="btn-icon" aria-label="next" data-slider-next>
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+
+              <div class="slider" data-slider>
+                <ul class="slider-list" data-slider-container>
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-1.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Sport"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Sport</span>
+
+                        <p class="slider-subtitle">38 Articles</p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-2.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Travel</span>
+
+                        <p class="slider-subtitle">63 Articles</p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-3.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Design"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Design</span>
+
+                        <p class="slider-subtitle">78 Articles</p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-4.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Movie"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Movie</span>
+
+                        <p class="slider-subtitle">125 Articles</p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="slider-item">
+                    <a href="#" class="slider-card">
+                      <figure
+                        class="slider-banner img-holder"
+                        style="--width: 507; --height: 618"
+                      >
+                        <img
+                          src="./assets/images/topic-5.png"
+                          width="507"
+                          height="618"
+                          loading="lazy"
+                          alt="Lifestyle"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="slider-content">
+                        <span class="slider-title">Lifestyle</span>
+
+                        <p class="slider-subtitle">78 Articles</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURED POST
+      -->
+
+        <section class="section projects" aria-label="projects" id="projects">
+          <div class="container">
+            <h2 class="headline headline-2 section-title">
+              <span class="span">My Projects</span>
+            </h2>
+
+            <p class="section-text">
+              Here are some of the projects I’ve worked on.
+            </p>
+
+            <ul class="feature-list">
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/kejardosen.png"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Aplikasi Penjadwalan Bimbingan Tugas Akhir"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2">#PHP</a>
+
+                        <a href="#" class="span hover-2">#Laravel</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Finished</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a href="#" class="card-title hover-2">
+                        Aplikasi Penjadwalan Bimbingan Tugas Akhir
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card feature-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1602; --height: 903"
+                  >
+                    <img
+                      src="./assets/images/shilau.png"
+                      width="1602"
+                      height="903"
+                      loading="lazy"
+                      alt="Pengembangan Web SHILAU Polibatam"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2">#PHP</a>
+
+                        <a href="#" class="span hover-2">#Laravel</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Ongoing</span>
+                      </div>
+                    </div>
+
+                    <h3 class="headline headline-3">
+                      <a href="#" class="card-title hover-2">
+                        Pengembangan Web SHILAU Polibatam
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <img
+            src="./assets/images/shadow-3.svg"
+            width="500"
+            height="1500"
+            loading="lazy"
+            alt=""
+            class="feature-bg"
+          />
+        </section>
+
+        <!-- 
+        - #POPULAR TAGS
+      -->
+
+        <section class="tags" aria-labelledby="tag-label">
+          <div class="container">
+            <h2 class="headline headline-2 section-title" id="tag-label">
+              <span class="span">Skills</span>
+            </h2>
+
+            <p class="section-text">Programming Languages</p>
+
+            <ul class="grid-list">
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/html.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">HTML</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/css.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">CSS</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/js.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Javascript</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/php.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">PHP</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/laravel.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Laravel</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/sql.jpg"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">SQL</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/python.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Python</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <p class="section-text">Design Tools</p>
+
+            <ul class="grid-list">
+
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/figma.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Figma</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/ai.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Adobe Ilustrator</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <img
+                    src="./assets/images/ps.png"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                  <p class="btn-text">Adobe Photoshop</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <p class="section-text">Non Technical Skills</p>
+
+            <ul class="grid-list">
+
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="people"></ion-icon>
+                  <p class="btn-text">Teamwork</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="chatbubbles"></ion-icon>
+                  <p class="btn-text">Communication</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="megaphone"></ion-icon>
+                  <p class="btn-text">Leadership</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="bulb"></ion-icon>
+                  <p class="btn-text">Creativity</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                  <p class="btn-text">Adaptability</p>
+                </button>
+              </li>
+              <li>
+                <button class="card tag-btn">
+                  <ion-icon name="sync"></ion-icon>
+                  <p class="btn-text">Willingness to Learn</p>
+                </button>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #RECENT POST
+      -->
+
+        <section
+          class="section recent-post"
+          id="recent"
+          aria-labelledby="recent-label"
+        >
+          <div class="container">
+            <div class="post-main">
+              <h2 class="headline headline-2 section-title">
+                <span class="span">Education</span>
+              </h2>
+
+              <p class="section-text">My educational journey reflects my growth and commitment to learning, from high school to my current studies in higher education. Each step has shaped my mindset, skills, and aspirations for the future.</p>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="recent-post-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 271; --height: 258"
+                    >
+                      <img
+                        src="./assets/images/smansa.jpg"
+                        width="271"
+                        height="258"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <a href="#" class="card-badge">High School</a>
+
+                      <h3 class="headline headline-3 card-title">
+                        <a href="#" class="link hover-2"
+                          >SMA Negeri 1 Batam</a
+                        >
+                      </h3>
+
+                      <p class="card-text">
+                        High school wasn’t just about studying for me—it was packed with meaningful activities that shaped who I am. Being in the flag ceremony squad (paskibra) taught me discipline, teamwork, and responsibility, while juggling assignments, extracurriculars, and event planning helped me master time management and build resilience. <br>
+                        <br>
+                        The lively, supportive bond with my classmates made everything even better. Our classroom felt like a second home, full of shared laughter and stories. Ultimately, high school was about personal growth and sharing the journey with amazing people.
+                      </p>
+
+                      <div class="card-wrapper">
+                        <div class="card-tag">
+                          <a href="#" class="span hover-2"># Travel</a>
+
+                          <a href="#" class="span hover-2"># Lifestyle</a>
+                        </div>
+
+                        <div class="wrapper">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span class="span">2021 - 2024</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="recent-post-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 271; --height: 258"
+                    >
+                      <img
+                        src="./assets/images/polibatam.jpg"
+                        width="271"
+                        height="258"
+                        loading="lazy"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <a href="#" class="card-badge">College</a>
+
+                      <h3 class="headline headline-3 card-title">
+                        <a href="#" class="link hover-2"
+                          >Politeknik Negeri Batam</a
+                        >
+                      </h3>
+
+                      <p class="card-text">
+                        After graduating from a high school life filled with extracurricular activities and busyness, I stepped into college life at Politeknik Negeri Batam. At first, it felt like a mix of excitement and a touch of nervousness. College life was definitely different—from having a more flexible schedule to adopting a more independent learning style, everything felt new and challenging.<br>
+                        <br>
+                        However, despite the initial anxiety, I felt fortunate to have already developed good time management skills back in high school. At Polibatam, I gradually adapted to the busy rhythm of lectures, assignments, and group projects.
+                      </p>
+
+                      <div class="card-wrapper">
+                        <div class="card-tag">
+                          <a href="#" class="span hover-2"># Travel</a>
+
+                          <a href="#" class="span hover-2"># Lifestyle</a>
+                        </div>
+
+                        <div class="wrapper">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span class="span">2024 - Now</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; Developed by
+        <a href="#" class="copyright-link">Muhammad Maulana Yusuf</a>
+      </p>
+  
+      <ul class="social-list">
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <span class="span">Twitter</span>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <span class="span">LinkedIn</span>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <span class="span">Instagram</span>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+            <span class="span">GitHub</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
