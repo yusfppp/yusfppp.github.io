@@ -661,6 +661,9 @@ body.nav-active { overflow: hidden; }
   margin-block-start: 30px;
 }
 
+.feature-card .card-text {
+  margin-top: 10px;
+}
 
 
 
