@@ -745,7 +745,10 @@ body.nav-active { overflow: hidden; }
   background-color: var(--bg-carolina-blue);
 }
 
-.education-card .card-title { margin-block: 15px 20px; }
+.education-card .card-title { 
+  margin-block: 15px 20px; 
+  font-size: 40px;
+}
 
 .education-card .card-tag {
   gap: 15px;
